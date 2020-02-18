@@ -25,20 +25,7 @@ theme_settings :
     skills : 
       - skill : HTML5 & CSS
         value : 85  # Percent value
-        
-  # Icons
-  icons :
-    email:
-    linkedin:  # Full URL 
-    github: 
-    gitlab: 
-    bitbucket: 
-    google_plus:
-    twitter:
-    youtube:
-    facebook:
-    instagram:
-
+      
   # Disqus
   disqus_shortname :
 
