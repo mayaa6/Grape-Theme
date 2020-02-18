@@ -2,16 +2,22 @@
 baseurl: ""
 url : "https://naye0ng.github.io"
 
+plugins: 
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag   
+
 # Blog Settings
 theme_settings :
-  title : Grape Theme
+  title : Nowonder.me
   favicon : assets/favicon.ico
 
   # Profile Settings
   profile :
-    image : assets/img/smile.png
-    username : Nayeong Kim
-    description : creator of Grape-Theme! Grape-Theme is my first jekyll theme and you can customize this theme easily.
+    image : assets/img/site-logo.png
+    username : No Wonder Me
+    description : 我的生活平淡无奇，没有历险记
     experience :
       - start : 2017-05-03
         end : 2018-05-06
@@ -22,9 +28,9 @@ theme_settings :
         
   # Icons
   icons :
-    email:  # Full email address, e.g. "sample@google.com"
+    email:
     linkedin:  # Full URL 
-    github: naye0ng
+    github: 
     gitlab: 
     bitbucket: 
     google_plus:
@@ -44,6 +50,5 @@ paginate_path: "blog/page:num"
 sass:
   sass_dir: _sass
   style: :compressed
-gems: [jekyll-paginate]
 bootstrap:
   assets: true

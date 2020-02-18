@@ -52,7 +52,7 @@
                         position: absolute;
                         left: -25px;
                         width: 8px;
-                        background-color: rgba(0,0,0,0.1);
+                        background-color: $text-gray;
                         border-radius: 8px;
                         height: 100%;
                     }
@@ -111,9 +111,9 @@
         width: 35px;
         height: 35px;
         margin-right: 10px;
-        border: 2px solid rgba(0,0,0,0.07);
+        border: 2px solid $theme-color;
         border-radius: 50%;
-        color: rgba(0,0,0,0.54);
+        color: $text-gray;
         font-size: 0.8rem;
         font-weight: 600;
         line-height: 30px;
