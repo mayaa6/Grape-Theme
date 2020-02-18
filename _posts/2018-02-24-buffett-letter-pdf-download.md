@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 巴菲特股东信PDF打包下载
-subtitle : How markdown is displayed as html
+subtitle : Buffett Stockholder's Letter Collection
 tags: [buffett, invest]
 author: No Wonder
 comments : True

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 奇怪的jade-lang!
-subtitle : How markdown is displayed as html
+subtitle : Obsolete Jade Language and Pug Language
 tags: [Web, Dev]
 author: No Wonder
 comments : True

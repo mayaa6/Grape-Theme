@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 曹政文章目录
-subtitle : How markdown is displayed as html
+subtitle : Caoz articles list
 tags: [caoz]
 author: No Wonder
 comments : True
