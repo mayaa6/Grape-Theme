@@ -1,0 +1,15 @@
+---
+layout: page
+---
+<div id="reference">
+    <section class="bg"></section>
+    <h1 class="title">Snippets 🙋🏻</h1>
+    <ul class="exper-list">
+        {% for exp in  profile.experience %}
+        <li class="meta">
+            <p class="date">{{ exp.start }} ~ {{ exp.end }}</p>
+            <p class="description">{{ exp.experience }}</p>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
