@@ -1,6 +1,6 @@
 # Site Settings
 baseurl: ""
-url : "https://naye0ng.github.io"
+url : "https://nowonder.me"
 
 collections:
   references:
@@ -14,6 +14,10 @@ plugins:
 
 permalink: /:categories/:title/
 
+tracks:
+  google_analytics: UA-98817606-5
+  baidu_tongji: 649831849b6b50d723160029db5b5e7c
+
 defaults:
   - scope:
       path: ""
@@ -23,21 +27,12 @@ defaults:
 
 # Blog Settings
 theme_settings :
-  title : Nowonder.me
+  title : NWM历险记
   favicon : assets/favicon.ico
 
   # Profile Settings
   profile :
     image : assets/img/site-logo.png
-    username : No Wonder Me
-    description : 我的生活平淡无奇，没有历险记
-    experience :
-      - start : 2017-05-03
-        end : 2018-05-06
-        experience : company name, title
-    skills : 
-      - skill : HTML5 & CSS
-        value : 85  # Percent value
       
   # Disqus
   disqus_shortname :
