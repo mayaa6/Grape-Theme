@@ -12,7 +12,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag   
 
-permalink: /blog/:title/
+permalink: /:categories/:title/
 
 defaults:
   - scope:

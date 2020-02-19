@@ -3,6 +3,7 @@ layout: post
 title: 巴菲特股东信PDF打包下载
 subtitle : Buffett Stockholder's Letter Collection
 tags: [Buffett, Invest]
+category: blog
 author: No Wonder
 comments : True
 ---

@@ -3,6 +3,7 @@ layout: post
 title: 曹政文章目录
 subtitle : Caoz articles list
 tags: [Caoz]
+category: blog
 author: No Wonder
 comments : True
 ---
