@@ -2,7 +2,7 @@
 layout: post
 title: 曹政文章目录
 subtitle : Caoz articles list
-tags: [caoz]
+tags: [Caoz]
 author: No Wonder
 comments : True
 ---

@@ -3,22 +3,9 @@ layout: page
 ---
 {% assign profile = site.theme_settings.profile %}
 
-</div><!-- This Tag means End .container -->
-<div id="protfolio">
-  <section id="about-me">
-    <div class="row">
-      <div class="img-wrap col-12 col-md-4">
-        <div class="img">
-          <img src="{{ site.baseurl }}/{{ profile.image }}" alt="user_image">
-        </div>
-      </div>
-      <div class="text-wrap col-12 col-md-8">
-        <h2 class="username">{{ profile.username }}</h2>
-        <p class="description">{{ profile.description }}</p>
-      </div>
-    </div>
-    <div class="bg"></div>
-  </section>
+<div id="reference">
+  <section class="bg"></section>
+  <h1 class="title">{{ page.title }}</h1>
   <!-- career section -->
   <section id="career" class="row">
     <article class="exper col-12 col-md-6">

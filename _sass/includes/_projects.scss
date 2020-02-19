@@ -1,17 +1,7 @@
 #project {
   position: relative;
   overflow: hidden;
-  .project-wrap{
-    @extend %page-padding;
-    padding-top: 50px!important;
-    margin-bottom: 55px;
-    p.title {
-      padding-left: 10px;
-      color: $theme-dark;
-      font-size: 25px;
-      font-weight: 600;
-    }
-  }
+  padding-top: 50px !important;
   .card-container {
     overflow: hidden;
     column-count: 3;

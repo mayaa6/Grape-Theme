@@ -1,58 +1,19 @@
-#protfolio {
-  #about-me {
-    position: relative;
-    .row {
-      @extend %page-padding;
-    }
-    .img-wrap {
-      text-align: center;
-      .img {
-        overflow: hidden;
-        display: inline-block;
-        width: 180px;
-        height: 180px;
-        border-radius: 15px;
-        img {
-          width: 100%;
-        }
-      }
-    }
-    .text-wrap {
-      color: #fff;
-      .description {
-        margin: 10px 0;
-        font-size: 0.95rem;
-      }
-      @media (max-width: 767px) {
-        margin-top: 15px;
-        text-align: center;
-      }
-      #icons li {
-        i {
-          width: 35px;
-          height: 35px;
-          color: #fff;
-          background-color: $theme-dark;
-          line-height: 35px;
-        }
-        i:hover {
-          background-color: #fff;
-          color: $theme-dark;
-        }
-      }
-    }
-    .bg {
-      content: "";
-      z-index: -1;
-      position: absolute;
-      width: 100%;
-      height: calc(100% + 110px);
-      top: -55px;
-      background-color: $theme-dark;
-    }
+#reference {
+  @extend %page-padding;
+  .bg {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    top: 105px;
+    left: 0%;
+    height: 95px;
+    background-color: $theme-dark;
+  }
+  h1.title {
+    color: #fff;
   }
   #career {
-    @extend %page-padding;
     margin-bottom: 55px;
     margin-top: 55px;
     .title {
