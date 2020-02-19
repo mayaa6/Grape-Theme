@@ -1,6 +1,35 @@
 header{
     margin-bottom: 60px;
     @extend %page-padding;
+    .img-wrap {
+        position: relative;
+        width: 100px;
+        display: block;
+        height: 40px;
+        border-radius: 10px;
+        background-color: #ddd;
+        float: left;
+        margin-right: 20px;
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.03);
+        }
+        &:hover::before {
+            background: rgba($theme-color, 0.1);
+        }
+        img {
+            max-width: 90%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+    }
     nav{
         ul{
             li{
