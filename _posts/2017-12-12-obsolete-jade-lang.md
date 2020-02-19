@@ -6,6 +6,8 @@ tags: [Web, Dev]
 category: blog
 author: No Wonder
 comments : True
+redirect_from:
+  - /old-jade-project/
 ---
 ## 起因
 这几天写一个项目，使用express-cli初始化项目，看了一眼express-cli的配置参数：

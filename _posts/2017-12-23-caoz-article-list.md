@@ -6,6 +6,8 @@ tags: [Caoz]
 category: blog
 author: No Wonder
 comments : True
+redirect_from:
+  - /caoz-catalog/
 ---
 
 谁是曹政？

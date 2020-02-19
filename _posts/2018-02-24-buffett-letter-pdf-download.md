@@ -6,6 +6,8 @@ tags: [Buffett, Invest]
 category: blog
 author: No Wonder
 comments : True
+redirect_from:
+  - /buffett_letter_pdf_download/
 ---
 
 2018年2月24日晚间，“股神”巴菲特的伯克希尔·哈撒韦公司（Berkshire Hathaway）发表了一年一度的致股东信。

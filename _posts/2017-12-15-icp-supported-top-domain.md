@@ -6,6 +6,8 @@ tags: [ICP, Web]
 category: blog
 author: No Wonder
 comments : True
+redirect_from:
+  - /beian-icp-top-domain-search/
 ---
 众所周知，在中国大陆境内架设互联网服务，都是需要进行ICP备案的，否则都会被下线。正式的说法是这样的：
 

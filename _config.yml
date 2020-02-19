@@ -10,7 +10,8 @@ plugins:
   - jekyll-paginate
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-seo-tag   
+  - jekyll-seo-tag
+  - jekyll-redirect-from
 
 permalink: /:categories/:title/
 
