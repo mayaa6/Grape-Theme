@@ -36,7 +36,16 @@ time, mark, audio, video {
 	vertical-align: baseline;
 	word-break: keep-all;
 	font-size: 1.05rem;
-    line-height: 1.5em;
+	line-height: 1.5em;
+	&::selection {
+		background:$select-bg;
+		/* WebKit/Blink Browsers */
+	}
+
+	&::-moz-selection {
+		background:$select-bg;
+		/* Gecko Browsers */
+	}
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -69,7 +78,7 @@ h6 {
 	font-size : 1.05rem;
 }
 p{
-	margin: 5px 0;
+	margin: 5px 0;	
 }
 @media (max-width: 576px){
 	h1 {
