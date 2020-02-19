@@ -1,5 +1,5 @@
 {% assign _url = page.url | split: "/" %}
-{% assign current = _url[-1] | split: "." %}
+{% assign current = _url[1] | split: "." %}
 <header>
   <nav>
     <a href="{{ site.url }}" class="img-wrap">

@@ -3,7 +3,7 @@
       {% for _ in site.reference %}
       {% assign id = id | plus: 1 %}
       <div class="card-wrapper">
-        <div class="card">
+        <a class="card" href="{{_.url}}">
           {% if _.image %}
           <div class="img-wrap">
             <img src="{{ site.url }}/assets/reference/cover/{{ _.image }}" alt="">
@@ -15,7 +15,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </a>
       {% endfor %}
   </div>
   <div class="bg"></div>

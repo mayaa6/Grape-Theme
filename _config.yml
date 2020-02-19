@@ -14,6 +14,13 @@ plugins:
 
 permalink: /blog/:title/
 
+defaults:
+  - scope:
+      path: ""
+      type: "reference"
+    values:
+      layout: "ref"
+
 # Blog Settings
 theme_settings :
   title : Nowonder.me
