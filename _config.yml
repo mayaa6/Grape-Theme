@@ -3,7 +3,7 @@ baseurl: ""
 url : "https://naye0ng.github.io"
 
 collections:
-  reference:
+  references:
     output: true
 
 plugins: 
@@ -17,7 +17,7 @@ permalink: /blog/:title/
 defaults:
   - scope:
       path: ""
-      type: "reference"
+      type: "references"
     values:
       layout: "ref"
 
