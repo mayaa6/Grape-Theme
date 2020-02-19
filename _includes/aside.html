@@ -10,7 +10,7 @@
   <p class="description">{{ profile.description }}</p>
 </div>
 <!-- Tag Navigation -->
-<div id="tag-wrap">
+<div id="tag-wrap" class="tag-wrapper">
   <a href="{{ site.url }}/tags">
     <p class="title">TAGS 🤪 </p>
   </a>
@@ -21,19 +21,13 @@
   {% endfor %}
 </div>
 <!-- Project -->
-<div id="proj-wrap">
+<div id="proj-wrap" class="tag-wrapper">
   <a href="{{ site.url }}/reference">
     <p class="title">REFERENCE 🙋🏻 </p>
-    <hr class="proj-hr">
-    {% for _ in site.data.projects %}
-    {% assign project = _.project %}
-    {% if project.print %}
-    <div class="proj-content">
-      <div class="proj-title">{{ project.title }}</div>
-      <div class="meta">{{ project.date }}</div>
-    </div>
-    <hr class="proj-hr">
-    {% endif %}
-    {% endfor %}
   </a>
+  {% for _ in site.reference %}
+  <a href="{{site.baseurl}}/reference#{{ _.short_name}}">
+    <span class="tag">{{ _.title}}</span>
+  </a>
+  {% endfor %}
 </div>

@@ -3,7 +3,8 @@
     padding: 0px 2%;
 
     #profile,
-    #tag-wrap {
+    #tag-wrap,
+    #proj-wrap {
         margin-bottom: 60px;
     }
 
@@ -59,28 +60,5 @@
 
     .description {
         font-size: 0.95rem;
-    }
-
-    #proj-wrap {
-        .proj-title {
-            font-weight: 600;
-            font-size: 0.9rem;
-        }
-
-        .meta,
-        .meta span {
-            color: rgba(0, 0, 0, 0.5);
-            font-size: 0.75rem;
-            margin: 3px 0 10px;
-        }
-
-        .proj-hr {
-            width: 100px;
-            border: 0.5px solid rgba(0, 0, 0, 0.1);
-        }
-
-        .proj-content:hover * {
-            color: $theme-dark;
-        }
     }
 }
