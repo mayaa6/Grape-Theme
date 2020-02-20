@@ -34,6 +34,7 @@ theme_settings :
   # Profile Settings
   profile :
     image : assets/img/site-logo.png
+    description: 我的生活平淡无奇，没有历险记
       
   # Disqus
   disqus_shortname :
