@@ -8,6 +8,7 @@ author: No Wonder
 comments : True
 redirect_from:
   - /caoz-catalog/
+  - /tag/caoz/
 ---
 
 谁是曹政？
