@@ -2,6 +2,7 @@
 short_name: design
 title: Design
 image: design.jpg
+comments : True
 ---
 
 ## 素材下载

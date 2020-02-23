@@ -2,6 +2,7 @@
 short_name: video
 title: Video
 image: video.jpg
+comments : True
 ---
 ## FFMPEG 代码参考
 ### 合并多个mp3文件

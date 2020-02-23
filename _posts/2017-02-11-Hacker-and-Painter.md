@@ -4,6 +4,7 @@ short_name: hacker_and_painter
 title: Hacker and Painter
 category: share
 tags: Book
+comments : True
 url: https://book.douban.com/subject/1395495/
 image: https://img1.doubanio.com/view/subject/l/public/s29566057.jpg
 ---

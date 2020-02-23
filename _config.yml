@@ -1,6 +1,8 @@
 # Site Settings
-baseurl: ""
-url : "https://nowonder.me"
+site_settings:
+  baseurl: ""
+  url : "https://nowonder.me"
+  enable_disqus: True
 
 collections:
   references:
@@ -35,9 +37,6 @@ theme_settings :
   profile :
     image : assets/img/site-logo.png
     description: 我的生活平淡无奇，没有历险记
-      
-  # Disqus
-  disqus_shortname :
 
 # Pagination
 paginate: 5
