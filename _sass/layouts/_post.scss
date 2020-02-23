@@ -38,26 +38,9 @@
         }
 }
 
-.article {
-    @extend %page-padding;
-
-    p {
-        margin: 10px 0;
-        line-height: 2rem;
-    }
-
-
-
-    .post-content {
-        overflow: hidden;
-        margin-bottom: 100px;
-    }
-}
-
-#comments {
-    @extend %page-padding;
-
-    div.border {
-        border-top: 1px solid #e7e9ee;
-    }
+#post, #ref {
+        .post-content {
+            overflow: hidden;
+            margin-bottom: 100px;
+        }
 }

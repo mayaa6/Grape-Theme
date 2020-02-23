@@ -1,23 +1,48 @@
 // Definition of tag style in post
 .article {
-    h1, h2, h3, h4, h5, h6{
-        margin : 15px 0 10px 0;
+    @extend %page-padding;
+    p {
+        margin-bottom: 1.8rem;
+        line-height: 2;
     }
-    ol, ul {
-        * { font-size: 16px!important; }
+
+    h1 h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 15px 0 10px 0;
     }
+
+    h2:before {
+        font-weight: 700;
+        content: '#';
+        color: $highlight;
+        margin-right: 0.25rem;
+
+    }
+
+    ol,
+    ul {
+        * {
+            font-size: 16px !important;
+        }
+    }
+
     ul {
         list-style-position: outside;
         list-style-type: none;
-        margin-top:2px;
+        margin-top: 2px;
         padding-left: 10px;
+
         li {
             position: relative;
             margin: 5px auto;
-            padding-left:30px!important;
+            padding-left: 30px !important;
         }
     }
-    ul li:before{
+
+    ul li:before {
         content: "";
         position: absolute;
         top: 8px;
@@ -27,71 +52,95 @@
         background-color: $text-gray;
         border-radius: 50%;
     }
+
     ol {
         list-style-type: decimal;
         margin-left: 10px;
         padding-left: 30px;
+
         li {
             position: relative;
             margin: 5px auto;
         }
     }
+
     a {
         color: #4F86C6;
     }
+
     img {
-        width : 96%;
-        margin : 2%;
-        box-shadow: 0 0px 6px 1px rgba(0,0,0,0.1);
+        width: 96%;
+        margin: 2%;
+        box-shadow: 0 0px 6px 1px rgba(0, 0, 0, 0.1);
     }
+
     table {
         width: 100%;
-        margin : 10px auto;
+        margin: 10px auto;
         word-wrap: break-word;
-        border-collapse:collapse;
+        border-collapse: collapse;
         padding: auto;
-        thead{
+
+        thead {
             background-color: #ced3d638;
         }
-        td, th {
+
+        td,
+        th {
             padding: 0.5em 1em;
             border: 1px solid #ddd;
             font-size: 16px;
         }
     }
+
     blockquote {
         position: relative;
-      margin: 1rem 10px;
-      padding: .5em 10px;
-      background: inherit;
-      color: $text-quote;
-      quotes: "\201C" "\201D" "\2018" "\2019";
-      font-weight: bold ;
-    background: #ced3d638;      
-      &:before {
-        margin-right: .25em;
+        margin: 1rem 10px;
+        padding: .5em 10px;
+        background: inherit;
         color: $text-quote;
-        content: "\201C";
-        vertical-align: -.4em;
-        font-size: 2em;
-        line-height: .1em;
-      }
-      &:after {
-          direction: rtl;
-          margin-right: .25em;
-          color: $text-quote;
-          content: "\201D";
-          vertical-align: -.4em;
-          font-size: 2em;
-          line-height: .1em;
-      }
+        quotes: "\201C""\201D""\2018""\2019";
+        font-weight: bold;
+        background: #ced3d638;
+
+        &:before {
+            margin-right: .25em;
+            color: $text-quote;
+            content: "\201C";
+            vertical-align: -.4em;
+            font-size: 2em;
+            line-height: .1em;
+        }
+
+        &:after {
+            direction: rtl;
+            margin-right: .25em;
+            color: $text-quote;
+            content: "\201D";
+            vertical-align: -.4em;
+            font-size: 2em;
+            line-height: .1em;
+        }
 
         // color: rgba(0,0,0,0.5);
         // margin: 10px auto;
         // padding: 8px 20px;
-        * { font-size: 16px; margin: 0; }
+        * {
+            font-size: 16px;
+            margin: 0;
+        }
     }
-    .preview{
+
+    .preview {
         display: none;
+    }
+
+    a{
+        margin: 0 0.25rem;
+        transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) all 0.3s;
+        &:hover {
+            color: $select-bg;
+            background-color: black;
+        }
     }
 }
