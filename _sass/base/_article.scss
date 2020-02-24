@@ -1,7 +1,10 @@
 // Definition of tag style in post
 .article {
     @extend %page-padding;
-    p {
+    p,
+    ol,
+    ul,
+    .highlighter-rouge {
         margin-bottom: 1.8rem;
         line-height: 2;
     }
@@ -95,13 +98,14 @@
 
     blockquote {
         position: relative;
-        margin: 1rem 10px;
+        margin: 1.8rem 10px;
         padding: .5em 10px;
         background: inherit;
         color: $text-quote;
         quotes: "\201C""\201D""\2018""\2019";
         font-weight: bold;
         background: #ced3d638;
+        border-radius: 3px;
 
         &:before {
             margin-right: .25em;
