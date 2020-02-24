@@ -1,14 +1,14 @@
 ---
 layout: post
 title: 微信支付功能的妙用
-subtitle : The Good Part of Wechat Payment
+subtitle : Two Tricks of Wechat Payment
 tags: [中国互联网, 杂谈]
 category: blog
 author: No Wonder
 comments : True
 ---
 
-分享两个是从网上看到的小知识，未经证实，当成段子看就可以了。
+分享两个从网上看到关于微信支付功能的小知识，未经证实，当成段子看就可以了。
 
 ## 验证人工智能
 
