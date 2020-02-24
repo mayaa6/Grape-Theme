@@ -3,7 +3,7 @@
 <header>
   <nav>
     <a href="{{ site.url }}" class="img-wrap">
-      <img src="{{ site.baseurl }}/{{ site.theme_settings.profile.image }}" alt="profile-image">
+      <img src="{{ site.theme_settings.profile.image | relative_url }}" alt="profile-image">
     </a>
     <ul>
       {% case current[0] %}

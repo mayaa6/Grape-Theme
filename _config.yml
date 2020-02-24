@@ -1,6 +1,6 @@
 # Site Settings
 site_settings:
-  baseurl: ""
+  baseurl: "https://nowonder.me"
   url : "https://nowonder.me"
   enable_disqus: True
 
