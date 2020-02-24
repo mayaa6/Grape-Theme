@@ -46,5 +46,5 @@ export PATH=$RUBY_HOME:$GEM_PATH/bin:$PATH
 
 本文参考：
 
-1. [docs.brew.sh](https://docs.brew.sh/Gems,-Eggs-and-Perl-Modules)
-2. [Dirk Avery on Medium](https://medium.com/faun/macos-catalina-xcode-homebrew-gems-developer-headaches-cf7b1edf10b7)
+1. [Gems, Eggs and Perl Modules--Homebrew Documentation](https://docs.brew.sh/Gems,-Eggs-and-Perl-Modules)
+2. [Developer Headaches on macOS Catalina: Xcode, Homebrew, Gems](https://medium.com/faun/macos-catalina-xcode-homebrew-gems-developer-headaches-cf7b1edf10b7)
