@@ -8,7 +8,9 @@ comments : True
 url: https://book.douban.com/subject/1395495/
 image: https://img1.doubanio.com/view/subject/l/public/s29566057.jpg
 ---
+
 ## 书摘
+
 1. 程序语言的进化，主流语言有惯性，进化很慢，
 2. 高级语言也有高级程度，像一棵树
 3. 使用快速高级的开发工具，可以成为创业公司的优势

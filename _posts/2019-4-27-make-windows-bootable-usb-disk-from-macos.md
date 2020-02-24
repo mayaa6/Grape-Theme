@@ -27,7 +27,7 @@ comments : True
 一般用`FAT32`和`GPT`的组合不会错。但是如果遇到比较老的电脑或操作系统，不妨把文件系统和分区表排列组合一下，应该能得应付的过去：
 
 ```bash
-#Usage:  diskutil eraseDisk format name [APM[Format]|MBR[Format]|GPT[Format]] 
+#Usage:  diskutil eraseDisk format name [APM[Format]|MBR[Format]|GPT[Format]]
 #        MountPoint|DiskIdentifier|DeviceNode
  diskutil eraseDisk MS-DOS "WIN10" MBR /dev/disk2
  diskutil eraseDisk FAT32 "WINXP" MBR /dev/disk2
