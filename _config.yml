@@ -1,4 +1,7 @@
 # Site Settings
+url : "https://nowonder.me"
+baseurl: ""
+
 site_settings:
   baseurl: "https://nowonder.me"
   url : "https://nowonder.me"
