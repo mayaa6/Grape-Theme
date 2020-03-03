@@ -17,14 +17,26 @@
         margin: 15px 0 10px 0;
     }
 
-    h2:before {
-        font-weight: 700;
-        content: '#';
-        color: $highlight;
-        margin-right: 0.25rem;
+    h2{
+        font-size: 1.4rem;
+        &:before {
+            font-weight: 700;
+            content: '#';
+            color: $highlight;
+            margin-right: 0.25rem;
 
+        }
     }
 
+    h3 {
+        font-size: 1.1rem;
+        &:before {
+            font-weight: 700;
+            content: '##';
+            color: $highlight;
+            margin-right: 0.25rem;
+        }
+    }
     ol,
     ul {
         * {
