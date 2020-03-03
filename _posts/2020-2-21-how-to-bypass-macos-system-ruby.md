@@ -2,7 +2,7 @@
 layout: post
 title: 如何替换掉macOS系统内置的Ruby
 subtitle : How To Bypass MacOS System Ruby
-tags: [dev, macos]
+tags: [Dev]
 category: blog
 author: No Wonder
 comments : True

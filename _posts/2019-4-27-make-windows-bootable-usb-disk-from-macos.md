@@ -2,7 +2,7 @@
 layout: post
 title: 在macOS中制作Windows系统启动盘
 subtitle : Make A Windows Bootable USB Disk From MacOS
-tags: [macos, windows]
+tags: [macOS]
 category: blog
 author: No Wonder
 comments : True

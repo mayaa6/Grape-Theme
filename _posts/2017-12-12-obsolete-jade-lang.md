@@ -2,7 +2,7 @@
 layout: post
 title: 奇怪的jade-lang!
 subtitle : Obsolete Jade Language and Pug Language
-tags: [Web, Dev]
+tags: [Dev]
 category: blog
 author: No Wonder
 comments : True

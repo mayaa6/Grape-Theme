@@ -2,7 +2,7 @@
 layout: post
 title: 下载优酷flash播放器视频
 subtitle : Download Youku Flash Player Video
-tags: [video, download]
+tags: [macOS]
 category: blog
 author: No Wonder
 comments : True

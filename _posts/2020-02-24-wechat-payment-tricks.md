@@ -2,7 +2,7 @@
 layout: post
 title: 微信支付功能的妙用
 subtitle : Two Tricks of Wechat Payment
-tags: [中国互联网, 杂谈]
+tags: [Chat]
 category: blog
 author: No Wonder
 comments : True
