@@ -14,6 +14,7 @@ comments : True
 
 1. [The Hitchhiker’s Guide to Python!](http://docs.python-guide.org/en/latest/#)：讲的相当全面的
 2. [How to Think Like a Computer Scientist: Learning with Python 3](http://openbookproject.net/thinkcs/python/english3e/) ：这是美国人的中学教材，更适合没有程序基础的人
+3. [2020-03-09 更新][NSA Python Training Document](https://archive.org/details/comp3321/mode/2up/search/device)：2020-02-09解密的NSA Python教程，是非常基础的介绍，排版不好看
 
 ## 需要掌握的话题
 
@@ -35,6 +36,7 @@ comments : True
 4. linting
 5. vscode
 
-## 趣文
+## 学习别人的代码
 
-[The evolution of a Python Programmer](https://gist.github.com/ghoseb/25049)：看看和高水平程序员的差距
+1. 全球第一的AI教科书作者、Google Research总监Peter Novig专门为初学者做了一个关于Python编程示范操作的GitHub项目: [Python programs to practice or demonstrate skills.](https://github.com/norvig/pytudes)
+2. [The evolution of a Python Programmer](https://gist.github.com/ghoseb/25049)：看看和高水平程序员的差距
