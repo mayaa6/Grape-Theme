@@ -43,8 +43,11 @@ seti@home要被中止来，是云计算的先锋。20多年来，处理来相当
 
 ## 只言片语
 
-> 那么多年轻人参加各种各样的考试，忙忙碌碌，只是为了掩盖人生找不到目标。  考试根本不是出路。如果你不知道人生怎么办，就算考过了，你依然不知道。by [阮一峰](http://www.ruanyifeng.com/blog/2020/03/weekly-issue-97.html)
+> 那么多年轻人参加各种各样的考试，忙忙碌碌，只是为了掩盖人生找不到目标。  考试根本不是出路。如果你不知道人生怎么办，就算考过了，你依然不知道。
+------- [阮一峰](http://www.ruanyifeng.com/blog/2020/03/weekly-issue-97.html)
 
-> 弱小和无知不是生存的障碍，傲慢才是。 by [刘慈欣](https://movie.douban.com/review/4884722/)
+> 弱小和无知不是生存的障碍，傲慢才是。 
+------- [刘慈欣](https://movie.douban.com/review/4884722/)
 
-> 谎言之所以存在，是因为所有人都想相信它存在 by[精准医学](https://mp.weixin.qq.com/s/jcVvZvTik7fTwF3xJIbClA)
+> 谎言之所以存在，是因为所有人都想相信它存在。 
+------- [精准医学](https://mp.weixin.qq.com/s/jcVvZvTik7fTwF3xJIbClA)
