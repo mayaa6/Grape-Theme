@@ -62,3 +62,4 @@ setup(
 
 1. [python-packaging.readthedocs.io](https://python-packaging.readthedocs.io/en/latest/index.html)
 2. [Setuptools document](https://setuptools.readthedocs.io/en/latest/setuptools.html)
+3. [m1racle的博客](https://www.cnblogs.com/zhangkanghui/p/9678515.html)
